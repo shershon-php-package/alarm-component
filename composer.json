@@ -1,0 +1,28 @@
+{
+    "name": "shershon/alarm",
+    "type": "library",
+    "authors": [
+        {
+            "name": "shershon",
+            "email": "18810877074@163.com"
+        }
+    ],
+    "require": {
+        "shershon/common": "^1.0",
+        "ext-json": "*",
+        "psr/container": "1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shershon\\Alarm\\": "src/"
+        },
+        "files": [
+            "src/dependencies.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shershon\\AlarmTest\\": "tests"
+        }
+    }
+}
