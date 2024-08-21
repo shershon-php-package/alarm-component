@@ -1,5 +1,6 @@
 {
     "name": "shershon/alarm",
+    "description": "基于 shershon/common包 封装的预警组件",
     "type": "library",
     "authors": [
         {
